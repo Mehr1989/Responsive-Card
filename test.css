@@ -62,4 +62,13 @@ body{
 }
 .card a:hover{
     opacity: 0.5;
+    color: black;
+    transition: 0.2s;
+}
+.card:hover{
+    background-color: rgb(196, 190, 190);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.5s;
 }
