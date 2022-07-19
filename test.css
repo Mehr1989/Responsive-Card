@@ -18,7 +18,7 @@ body{
     height: 400px;
     color: black;
     margin: 10px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     
 }
@@ -41,4 +41,23 @@ body{
 
 .menue3{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1za1tHOO8dPQJ3GhazDx86bsIj-OjY2wAQ&usqp=CAU");
+}
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding-left: 90px;
+}
+
+.card a{
+    background-color: rgb(117, 168, 168);
+    color: aliceblue;
+    display: block;
+    border-radius:5px;
+    text-align: center;
+    padding: 10px;
+ 
+}
+.card a:hover{
+    opacity: 0.5;
 }
